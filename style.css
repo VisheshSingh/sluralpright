@@ -157,6 +157,26 @@ h6 {
   text-decoration: underline;
 }
 
+#showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("login-bg.jpg") no-repeat center center / cover;
+  height: 100vh;
+}
+
+#showcase-text {
+  font-size: 3rem;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+#showcase .secondary-btn {
+  width: 60%;
+  margin: auto;
+}
 @media (min-width: 1200px) {
   #left {
     flex: 4;
